@@ -1,0 +1,59 @@
+/* Giao diện cho trang Thực hành Git & GitHub */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  line-height: 1.6;
+  color: #2d2a26;
+  background: #f7f4ef;
+}
+
+header {
+  padding: 40px 20px;
+  text-align: center;
+  color: #ffffff;
+  background: #24292f;
+}
+
+header h1 {
+  margin: 0 0 8px;
+  font-size: 2.2rem;
+}
+
+header p {
+  margin: 0;
+  opacity: 0.85;
+}
+
+main {
+  max-width: 800px;
+  margin: 32px auto;
+  padding: 0 20px;
+}
+
+section {
+  margin-bottom: 24px;
+  padding: 20px 24px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+  margin-top: 0;
+  color: #f05133; /* màu cam của logo Git */
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+footer {
+  padding: 16px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #6b655d;
+}
